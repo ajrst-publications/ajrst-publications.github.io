@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="AJRST has introduced a low article processing charge for all publications. Authors can now submit and publish their research papers with a reduced fee, ensuring open access to scientific knowledge.">
+    <meta name="keywords" content="AJRST, AJRST Publications, Article Processing Charge, APC, Free Journal, Open Access Publishing, Low Article Processing Charge, Academic Publishing, Research Paper Submission">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="AJRST">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Article Processing Charge | Academic Journal of Research in Science and Technology">
+    <meta property="og:description" content="AJRST now offers free article processing for all submissions. Learn about our commitment to open access publishing and submit your research without financial constraints.">
+    <meta property="og:image" content="https://ajrst-publications.github.io/Images/LOGO.png">
+    <meta property="og:url" content="https://ajrst-publications.github.io/article-processing-charge.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="AJRST Logo">
+    <meta property="og:site_name" content="AJRST">
+    <meta property="og:locale" content="en_US">
+    <!-- Favicon -->
+    <link rel="icon" href="Images/favicon.png" type="image/png">
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academic Journal of Research in Science and Technology",
+        "url": "https://ajrst-publications.github.io",
+        "logo": "https://ajrst-publications.github.io/Images/LOGO.png"
+      }
+    </script>
+    <title>Article Processing Charge | Academic Journal of Research in Science and Technology</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="journal-header">
+        <h1 style="font-weight: bold;"> Academic Journal of Research in Science and Technology <span style="display: block; text-align: center; font-size: 15px; font-weight: normal;">(International, Peer-Reviewed, Open-Access Journal)</span>
+        </h1>
+      </div>
+      <div class="container">
+        <div class="hamburger" onclick="toggleMenu()"></div>
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="index.html" class="dropbtn">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown(this)">About</a>
+              <div class="dropdown-content">
+                <a href="about.html">About AJRST</a>
+                <a href="vision.html">Vision</a>
+                <a href="editorial-board.html">Editorial Board</a>
+                <a href="peer-review-process.html">Peer Review Process</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="articles.html" class="dropbtn">Articles</a>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown(this)">Author</a>
+              <div class="dropdown-content">
+                <a href="author-guidelines.html">Author Guidelines</a>
+                <a href="research-topic.html">Research Topic</a>
+                <a href="submit.html">Submit Paper</a>
+                <a href="article-processing-charge.html">Article Processing Charge</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="contact.html" class="dropbtn">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Article Processing Charge</h2>
+        <hr>
+        <p class="justified">We are committed to supporting researchers from around the world in sharing their findings through our open access platform at AJRST. To continue providing high-quality publishing services and to sustain the advancement of scientific knowledge, we are introducing an Article Processing Charge (APC) for all articles published in AJRST.</p>
+        <p class="justified">
+          <b>APC Structure:</b>
+        </p>
+        <ul class="justified">
+          <li>For Indian Authors: ₹420 per published paper</li>
+          <li>For International Authors: $5 per published paper</li>
+        </ul>
+        <p class="justified">AJRST publishes journals under the Open Access model, ensuring that articles are freely accessible to anyone, anywhere in the world, and available for download via our reading platform. This model supports the global dissemination of knowledge but involves various costs. The APC helps cover these expenses, including Editorial Manager, Technical Support, Article Preparation, and Marketing Efforts.</p>
+        <p class="justified">
+          <b>Additional Benefits:</b>
+        </p>
+        <ul class="justified">
+          <li>Free E-Certificates: Authors will receive electronic certificates confirming their publication at no extra cost.</li>
+          <li>Indexing Services: Articles will be indexed to boost its visibility and citations.</li>
+        </ul>
+        <p class="justified">
+          <b>Important Details:</b>
+        </p>
+        <ul class="justified">
+          <li>Fees Apply Per Published Paper: The APC is charged for each paper that is published.</li>
+          <li>Fees Apply After Editorial Approval: The APC applies after your manuscript is approved for publication.</li>
+          <li>No Fees Before Acceptance: Charges apply only after your manuscript passes our editorial review.</li>
+        </ul>
+        <p class="justified">We look forward to receiving your submissions and contributing to the advancement of scientific knowledge through open access publishing.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Publication Type</th>
+              <th>Indian Authors</th>
+              <th>International Authors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Fill in the table rows dynamically with your paper details -->
+            <tr>
+              <td>Online Publication</td>
+              <td>₹420</td>
+              <td>$5</td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <br>
+                <br>Pay Now
+              </td>
+              <td>
+                <!-- For Google Pay -->
+                <img src="Images/googlepay-magnified.png" alt="Pay via Google Pay" id="magnified-googlepay" style="width: 200px; cursor: pointer;">
+                <div id="modal-googlepay" class="modal">
+                  <span class="close" id="close-googlepay">&times;</span>
+                  <img class="modal-content" src="Images/googlepay.png">
+                </div>
+              </td>
+              <td>
+                <!-- For PayPal -->
+                <img src="Images/paypal-magnified.png" alt="Pay via Paypal" id="magnified-paypal" style="width: 140px; cursor: pointer;">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="justified">To finalize the publication process, please Email the duly signed copyright form and proof of payment (a screenshot of the payment confirmation) to <a href="mailto:editor@ajrst.com">ajrst.publications@gmail.com</a>. Kindly ensure that your Email includes both your manuscript ID and the title of your manuscript/paper. </p>
+        <img src="Images/LOGO.png" alt="Book Image" class="book-image">
+        <div class="call-for-papers-box">
+          <div class="call-for-papers-title">CALL FOR PAPERS</div>
+          <div class="call-for-papers-item">
+            <div class="call-for-papers-label">Paper Submission Last Date</div>
+            <div class="call-for-papers-value">End of Month</div>
+          </div>
+          <div class="call-for-papers-item">
+            <div class="call-for-papers-label">Paper Review Notification</div>
+            <div class="call-for-papers-value">Approx. 2 to 4 Days <br>(varies by paper) </div>
+          </div>
+          <div class="call-for-papers-item">
+            <div class="call-for-papers-label">Paper Publishing</div>
+            <div class="call-for-papers-value">Within 24 Hours after review <br> (upon author’s final procedures) </div>
+          </div>
+          <div class="submit-button-container">
+            <a href="submit.html" class="button-link">Submit Paper</a>
+            <div class="submission-deadline">
+              <img src="Images/new.gif" alt="New" />
+              <p id="submission-deadline-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="impactfactor-box">
+          <div class="impact-factor">Impact Factor</div>
+          <div class="impact-value">Awaiting Calculation</div>
+        </div>
+        <div class="indexing-box">
+          <div class="indexing">Indexing Services</div>
+          <div class="indexing-value">
+            <div class="index-item">
+              <img src="Images/indexing_1.png" alt="google-scholar">
+              <span>Google Scholar</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_2.png" alt="pubmed (NCBI)">
+              <span>PuBMed (NCBI)</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_3.png" alt="web-of-science">
+              <span>Web of Science</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_4.png" alt="research-gate">
+              <span>ResearchGate</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_5.png" alt="academia-edu">
+              <span>Academia.edu</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_6.png" alt="zenodo">
+              <span>Zenodo</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_7.png" alt="scribd">
+              <span>Scribd</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_8.png" alt="slideshare">
+              <span>SlideShare</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_9.png" alt="issuu">
+              <span>ISSUU</span>
+            </div>
+            <div class="index-item">
+              <img src="Images/indexing_10.png" alt="ssrn-elsevier">
+              <span>SSRN-Elsevier</span>
+            </div>
+          </div>
+        </div>
+        <div class="apc-box">
+          <div class="apc">Payment After Acceptance</div>
+          <div class="apc-value">
+            <a href="article-processing-charge.html" class="button-link">Article Processing Charge</a>
+            <br> Indian Authors: ₹420 <br> International Authors: $5
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p>
+            <strong>ABOUT US</strong>
+          </p>
+          <p>ISSN (Online): Application in Progress</p>
+          <p>Impact Factor: Awaiting Calculation</p>
+          <p>Frequency: Monthly</p>
+          <p>&copy; <span id="currentYear"></span> AJRST, All rights reserved; Powered by GitHub </p>
+        </div>
+        <div class="footer-content">
+          <p>
+            <strong>FOR AUTHORS</strong>
+          </p>
+          <p>
+            <a href="AJRST-Manuscript Template.docx">Download Manuscript</a>
+          </p>
+          <p>
+            <a href="AJRST-Copyright-Form.pdf">Download Copyright Form</a>
+          </p>
+          <p>
+            <a href="privacy-policies.html">Privacy Policies</a>
+          </p>
+          <p>
+            <a href="faq.html">FAQs</a>
+          </p>
+        </div>
+        <div class="footer-content">
+          <p>
+            <strong>FOR REVIEWERS</strong>
+          </p>
+          <p>
+            <a href="editorial-board.html">Editorial Board</a>
+          </p>
+          <p>
+            <a href="peer-review-process.html">Peer Review Process</a>
+          </p>
+          <p>
+            <a href="join-as-reviewer.html">Join as Reviewer</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function toggleDropdown(element) {
+        var dropdownContent = element.nextElementSibling;
+        dropdownContent.classList.toggle("show");
+      }
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      // JavaScript to calculate and update the submission deadline text
+      function updateSubmissionDeadline() {
+        const deadlineText = document.getElementById('submission-deadline-text');
+        const today = new Date();
+        const currentMonth = today.getMonth();
+        const currentYear = today.getFullYear();
+        // Calculate the last date of the current month
+        const lastDate = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const lastDateFormatted = `${lastDate.toString().padStart(2, '0')}/${(currentMonth + 1).toString().padStart(2, '0')}/${currentYear}`;
+        deadlineText.textContent = `Deadline for Submission ${lastDateFormatted}`;
+      }
+      // Call the function on page load
+      window.onload = updateSubmissionDeadline;
+      // JavaScript to update the copyright year dynamically
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+      // JavaScript for payment gateways
+      document.addEventListener('DOMContentLoaded', () => {
+        const magnifiedGooglePay = document.getElementById('magnified-googlepay');
+        const magnifiedPaypal = document.getElementById('magnified-paypal');
+        const modalGooglePay = document.getElementById('modal-googlepay');
+        const closeGooglePay = document.getElementById('close-googlepay');
+        magnifiedGooglePay.onclick = function() {
+          modalGooglePay.style.display = 'block';
+        }
+        magnifiedPaypal.onclick = function() {
+          window.open('https://paypal.me/AJRST', '_blank');
+        }
+        closeGooglePay.onclick = function() {
+          modalGooglePay.style.display = 'none';
+        }
+        window.onclick = function(event) {
+          if (event.target == modalGooglePay) {
+            modalGooglePay.style.display = 'none';
+          }
+        }
+      });
+      // JavaScript for Hamburger menu
+      function toggleMenu() {
+        var nav = document.querySelector('nav ul');
+        var hamburger = document.querySelector('.hamburger');
+        nav.classList.toggle('show');
+        hamburger.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
